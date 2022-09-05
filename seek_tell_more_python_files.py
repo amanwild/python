@@ -1,0 +1,15 @@
+f = open("aman.txt")
+# f.seek()
+print(f.tell())
+print(f.readline())
+print(f.tell())
+
+f.seek(8)
+
+print(f.tell())
+print(f.readline())
+print(f.tell())
+f.seek(0)
+print(f.readlines())
+print(f.tell())
+f.close()

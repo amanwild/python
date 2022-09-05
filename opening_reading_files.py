@@ -1,0 +1,6 @@
+f = open("sample.txt")
+# content = f.read()
+# print(      content)
+print(f.readline(),end=" ")
+# print(f.readlines(),end=" ")
+f.close() 
